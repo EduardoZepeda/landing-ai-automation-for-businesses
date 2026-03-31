@@ -1,65 +1,68 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import { Navbar } from "./components/Navbar";
+import { Hero } from "./components/Hero";
+import { Features } from "./components/Features";
+import { InteractiveDemo } from "./components/InteractiveDemo";
+import { Specialties } from "./components/Specialties";
+import { Stats } from "./components/Stats";
+import { Pricing } from "./components/Pricing";
+import { CTABanner } from "./components/CTABanner";
+import { Footer } from "./components/Footer";
+
+export default function LandingPage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+    <>
+      <style>{`
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+
+        @keyframes fadeIn {
+          from { opacity: 0; }
+          to   { opacity: 1; }
+        }
+        @keyframes slideUp {
+          from { opacity: 0; transform: translateY(24px); }
+          to   { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes float {
+          0%, 100% { transform: translateY(0px); }
+          50%       { transform: translateY(-16px); }
+        }
+        @keyframes bounceSlow {
+          0%, 100% { transform: translateY(0) translateX(-50%); }
+          50%       { transform: translateY(8px) translateX(-50%); }
+        }
+        @keyframes typingDot {
+          0%, 80%, 100% { transform: scale(0.6); opacity: 0.4; }
+          40%            { transform: scale(1);   opacity: 1; }
+        }
+
+        .animate-fade-in        { animation: fadeIn  0.8s ease both; }
+        .animate-fade-in-slow   { animation: fadeIn  1.4s ease 0.6s both; }
+        .animate-slide-up       { animation: slideUp 0.7s ease 0.1s both; }
+        .animate-slide-up-delay { animation: slideUp 0.7s ease 0.25s both; }
+        .animate-slide-up-delay2{ animation: slideUp 0.7s ease 0.4s both; }
+        .animate-float          { animation: float  4s ease-in-out infinite; }
+        .animate-bounce-slow    { animation: bounceSlow 2s ease-in-out infinite; }
+        .animate-typing-dot     { animation: typingDot 1.2s infinite; }
+
+        html { scroll-behavior: smooth; }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #0a1628; }
+        ::-webkit-scrollbar-thumb { background: #25d366; border-radius: 99px; }
+      `}</style>
+
+      <Navbar />
+      <main>
+        <Hero />
+        <Features />
+        <InteractiveDemo />
+        <Specialties />
+        <Stats />
+        <Pricing />
+        <CTABanner />
       </main>
-    </div>
+      <Footer />
+    </>
   );
 }

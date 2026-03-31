@@ -1,0 +1,164 @@
+{
+  "nav": {
+    "features": "Features",
+    "demo": "Demo",
+    "specialties": "Specialties",
+    "pricing": "Pricing",
+    "cta": "Try Free"
+  },
+  "hero": {
+    "badge": "WhatsApp-powered AI Agent",
+    "h1": {
+      "line1": "Your clinic,",
+      "line2": "always open."
+    },
+    "description": "An intelligent WhatsApp assistant that handles appointments, reminders, and patient queries 24/7 — for dentists, doctors, therapists, and beyond.",
+    "cta": {
+      "primary": "See Live Demo",
+      "secondary": "Learn More"
+    },
+    "social": {
+      "count": "500+ clinics",
+      "sub": "already automating appointments"
+    }
+  },
+  "demo": {
+    "contact": {
+      "name": "Aidenta Assistant",
+      "status": "online"
+    },
+    "today": "TODAY",
+    "input": {
+      "placeholder": "Type a message..."
+    },
+    "fallback": "Got it! I'll process your request shortly.",
+    "error": "Hmm, I couldn't connect right now. Please try again in a moment!",
+    "badge": "Try it now",
+    "h2": {
+      "line1": "Chat with Aidenta",
+      "line2": "right now."
+    },
+    "description": "Type anything in the chat — ask to book an appointment, check availability, or just say hello. Experience your future assistant.",
+    "hint1": "\"Book me an appointment for next Monday\"",
+    "hint2": "\"What are your available hours?\"",
+    "hint3": "\"Cancel my appointment on Friday\""
+  },
+  "features": {
+    "badge": "What it does",
+    "h2": {
+      "line1": "Everything your front desk does,",
+      "line2": "automated."
+    },
+    "subtitle": "Stop losing patients to voicemail. Let Aidenta handle the scheduling so you can focus on care.",
+    "autoresponder": {
+      "title": "24/7 WhatsApp Autoresponder",
+      "desc": "Your assistant replies instantly to patients around the clock — or only during the hours you choose. No message goes unanswered."
+    },
+    "audio": {
+      "title": "Understands Voice Messages",
+      "desc": "Patients can send audio notes and the assistant transcribes and processes them automatically, just like a text message."
+    },
+    "images": {
+      "title": "Reads & Analyses Images",
+      "desc": "Send a photo of a prescription, insurance card, or X-ray and the assistant extracts the relevant information instantly."
+    },
+    "sheets": {
+      "title": "Saves Data to Google Sheets",
+      "desc": "Every patient interaction, contact detail, and request is automatically logged to your Google Sheet — always up to date."
+    },
+    "calendar": {
+      "title": "Books via Google Calendar",
+      "desc": "Appointments are created, updated, and cancelled directly in your Google Calendar in real time, with zero manual input."
+    },
+    "reminders": {
+      "title": "Reminders via WhatsApp & Email",
+      "desc": "Automated reminders are sent through both WhatsApp and email before each visit, reducing no-shows by up to 60%."
+    }
+  },
+  "specialties": {
+    "badge": "Made for",
+    "h2": "Every healthcare professional",
+    "dental": "Dental Clinics",
+    "general": "General Practice",
+    "therapy": "Therapy & Psychology",
+    "aesthetic": "Aesthetic Medicine",
+    "optometry": "Optometry",
+    "physio": "Physiotherapy",
+    "hospital": "Private Hospitals",
+    "derma": "Dermatology"
+  },
+  "stats": {
+    "0": "Always available",
+    "1": "Fewer no-shows",
+    "2": "Setup time",
+    "3": "Google integrations"
+  },
+  "pricing": {
+    "badge": "Investment",
+    "h2": {
+      "line1": "One-time installation.",
+      "line2": "No recurring fees from us."
+    },
+    "subtitle": "We build and configure your AI assistant. You maintain full ownership and pay WhatsApp & AI providers directly at their standard rates — typically under $30/month.",
+    "provider": {
+      "wa": "WhatsApp Business API",
+      "wa.cost": "~$5-15 / mo",
+      "ai": "OpenAI / AI model",
+      "ai.cost": "~$5-15 / mo",
+      "cal": "Calendar provider",
+      "cal.cost": "Free tier available"
+    },
+    "footer": "All packages include source code handoff. You own everything we build. 🔒",
+    "essential": {
+      "name": "Essential",
+      "price": "$490",
+      "desc": "One-time setup for solo practitioners and small clinics.",
+      "note": "You pay providers (WhatsApp API, OpenAI) directly.",
+      "cta": "Get a Quote",
+      "feature0": "1 WhatsApp number configured",
+      "feature1": "Appointment booking flow",
+      "feature2": "Automated reminders setup",
+      "feature3": "Calendar integration",
+      "feature4": "30-day post-install support"
+    },
+    "clinic": {
+      "name": "Clinic",
+      "price": "$990",
+      "badge": "Most Requested",
+      "desc": "Full-featured setup for multi-practitioner clinics.",
+      "note": "You pay providers (WhatsApp API, OpenAI) directly.",
+      "cta": "Get a Quote",
+      "feature0": "Up to 3 WhatsApp numbers",
+      "feature1": "Multi-doctor scheduling logic",
+      "feature2": "Custom conversation flows",
+      "feature3": "Analytics dashboard setup",
+      "feature4": "EHR / calendar integration",
+      "feature5": "60-day post-install support"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "Custom",
+      "desc": "Tailored build for hospital groups and multi-location networks.",
+      "note": "Scope and pricing defined after discovery call.",
+      "cta": "Contact Us",
+      "feature0": "Unlimited WhatsApp numbers",
+      "feature1": "White-label & custom branding",
+      "feature2": "Full EHR / HIS integration",
+      "feature3": "Dedicated project manager",
+      "feature4": "Staff training sessions",
+      "feature5": "Ongoing retainer available"
+    }
+  },
+  "cta": {
+    "h2": "Ready to automate your clinic?",
+    "desc": "Pay once, own it forever. We set everything up, hand you the keys, and you keep 100% control — with no ongoing fees from us.",
+    "primary": "See installation packages",
+    "secondary": "Try the live demo"
+  },
+  "footer": {
+    "copy": "© 2025 Aidenta. All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "contact": "Contact"
+  }
+}

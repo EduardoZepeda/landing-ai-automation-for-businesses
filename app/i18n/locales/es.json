@@ -1,0 +1,164 @@
+{
+  "nav": {
+    "features": "Características",
+    "demo": "Demo",
+    "specialties": "Especialidades",
+    "pricing": "Precios",
+    "cta": "Prueba Gratis"
+  },
+  "hero": {
+    "badge": "Asistente de IA por WhatsApp",
+    "h1": {
+      "line1": "Tu clínica,",
+      "line2": "siempre abierta."
+    },
+    "description": "Un asistente inteligente de WhatsApp que maneja citas, recordatorios y consultas de pacientes 24/7 — para dentistas, médicos, terapeutas y más.",
+    "cta": {
+      "primary": "Ver Demo en Vivo",
+      "secondary": "Saber Más"
+    },
+    "social": {
+      "count": "500+ clínicas",
+      "sub": "ya automatizando citas"
+    }
+  },
+  "demo": {
+    "contact": {
+      "name": "Asistente Aidenta",
+      "status": "en línea"
+    },
+    "today": "HOY",
+    "input": {
+      "placeholder": "Escribe un mensaje..."
+    },
+    "fallback": "Entendido. Procesaré tu solicitud en breve.",
+    "error": "Hmm, no pude conectar ahora. ¡Por favor intenta de nuevo en un momento!",
+    "badge": "Pruébalo ahora",
+    "h2": {
+      "line1": "Chatea con Aidenta",
+      "line2": "ahora mismo."
+    },
+    "description": "Escribe cualquier cosa en el chat — pide agendar una cita, consulta disponibilidad, o simplemente saluda. Experimenta tu futuro asistente.",
+    "hint1": "\"Agenda una cita para el próximo lunes\"",
+    "hint2": "\"¿Cuáles son tus horarios disponibles?\"",
+    "hint3": "\"Cancela mi cita del viernes\""
+  },
+  "features": {
+    "badge": "Lo que hace",
+    "h2": {
+      "line1": "Todo lo que hace tu recepción,",
+      "line2": "automatizado."
+    },
+    "subtitle": "Deja de perder pacientes por correo de voz. Deja que Aidenta maneje la agenda para que puedas enfocarte en la atención.",
+    "autoresponder": {
+      "title": "Autorespuesta de WhatsApp 24/7",
+      "desc": "Tu asistente responde al instante a los pacientes durante todo el día — o solo en los horarios que elijas. Ningún mensaje queda sin respuesta."
+    },
+    "audio": {
+      "title": "Entiende Mensajes de Voz",
+      "desc": "Los pacientes pueden enviar notas de audio y el asistente las transcribe y procesa automáticamente, igual que un mensaje de texto."
+    },
+    "images": {
+      "title": "Lee y Analiza Imágenes",
+      "desc": "Envía una foto de una receta, tarjeta de seguro o radiografía y el asistente extrae la información relevante al instante."
+    },
+    "sheets": {
+      "title": "Guarda Datos en Google Sheets",
+      "desc": "Cada interacción, detalle de contacto y solicitud del paciente se registra automáticamente en tu Google Sheet — siempre actualizado."
+    },
+    "calendar": {
+      "title": "Agenda via Google Calendar",
+      "desc": "Las citas se crean, actualizan y cancelan directamente en tu Google Calendar en tiempo real, sin intervención manual."
+    },
+    "reminders": {
+      "title": "Recordatorios por WhatsApp y Email",
+      "desc": "Los recordatorios automáticos se envían por WhatsApp y email antes de cada visita, reduciendo las no-shows hasta un 60%."
+    }
+  },
+  "specialties": {
+    "badge": "Hecho para",
+    "h2": "Cada profesional de la salud",
+    "dental": "Clínicas Dentales",
+    "general": "Medicina General",
+    "therapy": "Terapia y Psicología",
+    "aesthetic": "Medicina Estética",
+    "optometry": "Optometría",
+    "physio": "Fisioterapia",
+    "hospital": "Hospitales Privados",
+    "derma": "Dermatología"
+  },
+  "stats": {
+    "0": "Disponible 24/7",
+    "1": "Menos no-shows",
+    "2": "Tiempo de configuración",
+    "3": "Integraciones con Google"
+  },
+  "pricing": {
+    "badge": "Inversión",
+    "h2": {
+      "line1": "Instalación única.",
+      "line2": "Sin mensualidades de nuestra parte."
+    },
+    "subtitle": "Construimos y configuramos tu asistente de IA. Mantienes el control total y pagas a WhatsApp e IA directamente a sus tarifas estándar — típicamente menos de $30/mes.",
+    "provider": {
+      "wa": "WhatsApp Business API",
+      "wa.cost": "~$5-15/mes",
+      "ai": "OpenAI / Modelo de IA",
+      "ai.cost": "~$5-15/mes",
+      "cal": "Proveedor de Calendario",
+      "cal.cost": "Tier gratuito disponible"
+    },
+    "footer": "Todos los paquetes incluyen entrega del código fuente. Todo lo que construimos es tuyo. 🔒",
+    "essential": {
+      "name": "Esencial",
+      "price": "$490",
+      "desc": "Configuración única para profesionales independientes y clínicas pequeñas.",
+      "note": "Pagas directamente a los proveedores (WhatsApp API, OpenAI).",
+      "cta": "Obtener Cotización",
+      "feature0": "1 número de WhatsApp configurado",
+      "feature1": "Flujo de agendado de citas",
+      "feature2": "Configuración de recordatorios automáticos",
+      "feature3": "Integración con calendario",
+      "feature4": "30 días de soporte post-instalación"
+    },
+    "clinic": {
+      "name": "Clínica",
+      "price": "$990",
+      "badge": "Más Solicitado",
+      "desc": "Configuración completa para clínicas multi-doctor.",
+      "note": "Pagas directamente a los proveedores (WhatsApp API, OpenAI).",
+      "cta": "Obtener Cotización",
+      "feature0": "Hasta 3 números de WhatsApp",
+      "feature1": "Lógica de agendado multi-doctor",
+      "feature2": "Flujos de conversación personalizados",
+      "feature3": "Configuración de dashboard de análisis",
+      "feature4": "Integración con EHR / calendario",
+      "feature5": "60 días de soporte post-instalación"
+    },
+    "enterprise": {
+      "name": "Empresarial",
+      "price": "Custom",
+      "desc": "Construcción personalizada para grupos hospitalarios y redes multi-sucursal.",
+      "note": "Alcance y precio definidos después de llamada de descubrimiento.",
+      "cta": "Contáctanos",
+      "feature0": "Números de WhatsApp ilimitados",
+      "feature1": "White-label y marca personalizada",
+      "feature2": "Integración completa con EHR / HIS",
+      "feature3": "Gerente de proyecto dedicado",
+      "feature4": "Sesiones de capacitación de personal",
+      "feature5": "Retainer continuo disponible"
+    }
+  },
+  "cta": {
+    "h2": "¿Listo para automatizar tu clínica?",
+    "desc": "Paga una vez, es tuyo para siempre. Configuramos todo, te damos las llaves y mantienes el 100% de control — sin mensualidades de nuestra parte.",
+    "primary": "Ver paquetes de instalación",
+    "secondary": "Probar la demo en vivo"
+  },
+  "footer": {
+    "copy": "© 2025 Aidenta. Todos los derechos reservados.",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "contact": "Contacto"
+  }
+}
