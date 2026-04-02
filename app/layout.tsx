@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(`${process.env.NEXT_PUBLIC_URL}`),
   title: {
-    default: "Aidenta - WhatsApp AI Assistant for Clinics",
+    default: "Aidenta - WhatsApp AI Assistant",
     template: "%s | Aidenta",
   },
   description: "AI-powered WhatsApp assistant that handles appointments, reminders, and patient queries 24/7 for dental clinics, medical practices, and healthcare professionals.",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: `${process.env.NEXT_PUBLIC_URL}`,
     siteName: "Aidenta",
-    title: "Aidenta - WhatsApp AI Assistant for Clinics",
+    title: "Aidenta - WhatsApp AI Assistant",
     description: "AI-powered WhatsApp assistant that handles appointments, reminders, and patient queries 24/7 for dental clinics, medical practices, and healthcare professionals.",
     images: [
       {
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aidenta - WhatsApp AI Assistant for Clinics",
+    title: "Aidenta - WhatsApp AI Assistant",
     description: "AI-powered WhatsApp assistant that handles appointments, reminders, and patient queries 24/7 for healthcare professionals.",
     creator: "@aidenta",
     images: ["/og-image.png"],
