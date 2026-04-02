@@ -19,10 +19,10 @@ export function Pricing() {
             {t("pricing.badge", "Investment")}
           </div>
           <h2 className="font-['Plus_Jakarta_Sans',_sans-serif] text-4xl md:text-5xl font-extrabold text-white mb-4">
-            {t("pricing.h2", "One-time installation.")}
+            {t("pricing.h2.line1", "One-time installation.")}
             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#25d366] to-[#128c7e]">
-              {t("pricing.h2.accent", "No recurring fees from us.")}
+              {t("pricing.h2.line2", "No recurring fees from us.")}
             </span>
           </h2>
           <p className="text-slate-400 max-w-xl mx-auto text-base leading-relaxed">

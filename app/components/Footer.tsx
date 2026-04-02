@@ -13,7 +13,7 @@ export function Footer() {
           <span className="font-['Plus_Jakarta_Sans',_sans-serif] text-white font-bold">Aidenta</span>
         </div>
         <p className="text-slate-500 text-sm text-center">
-          {t("footer.copy", "© 2025 Aidenta. All rights reserved.")}
+          {t("footer.copy", "© 2026 Aidenta. All rights reserved.")}
         </p>
         <div className="flex gap-6 text-slate-500 text-sm">
           <a href="#" className="hover:text-white transition-colors">{t("footer.privacy", "Privacy")}</a>

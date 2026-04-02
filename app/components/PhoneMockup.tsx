@@ -1,9 +1,34 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useState, useEffect } from "react";
 import { Phone, MoreVertical, Smile, Send, Stethoscope } from "lucide-react";
 import { useI18n } from "../lib/i18n";
-import { API_URL, type Message } from "../lib/data";
+import { type Message } from "../lib/data";
+
+const SESSION_COOKIE_NAME = "aidenta_session";
+
+function generateUUID(): string {
+  return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, (c) => {
+    const r = (Math.random() * 16) | 0;
+    const v = c === "x" ? r : (r & 0x3) | 0x8;
+    return v.toString(16);
+  });
+}
+
+function getSessionId(): string {
+  if (typeof document === "undefined") return "";
+
+  const cookies = document.cookie.split("; ");
+  const sessionCookie = cookies.find((c) => c.startsWith(SESSION_COOKIE_NAME + "="));
+
+  if (sessionCookie) {
+    return sessionCookie.split("=")[1];
+  }
+
+  const newId = generateUUID();
+  document.cookie = `${SESSION_COOKIE_NAME}=${newId}; path=/; max-age=31536000; SameSite=Lax`;
+  return newId;
+}
 
 export function PhoneMockup({
   messages,
@@ -13,23 +38,15 @@ export function PhoneMockup({
   readOnly?: boolean;
 }) {
   const { t } = useI18n();
-  const [msgs, setMsgs] = useState<Message[]>(messages);
+  // Start with empty messages for clean conversation
+  const [msgs, setMsgs] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
-  const bottomRef = useRef<HTMLDivElement>(null);
-  const isFirstRender = useRef(true);
+  const [sessionId, setSessionId] = useState("");
 
   useEffect(() => {
-    // Only scroll when a new message is added (not on initial render)
-    // and only for interactive mode (not readOnly)
-    if (!readOnly) {
-      if (isFirstRender.current) {
-        isFirstRender.current = false;
-        return;
-      }
-      bottomRef.current?.scrollIntoView({ behavior: "smooth" });
-    }
-  }, [msgs, readOnly]);
+    setSessionId(getSessionId());
+  }, []);
 
   const now = () => {
     const d = new Date();
@@ -39,19 +56,22 @@ export function PhoneMockup({
   const send = async () => {
     if (!input.trim() || loading) return;
     const userMsg: Message = { from: "user", text: input.trim(), time: now() };
-    setMsgs((m) => [...m, userMsg]);
     setInput("");
     setLoading(true);
 
+    setMsgs((m) => [...m, userMsg]);
+
     try {
-      const res = await fetch(API_URL, {
+      const res = await fetch("/api/webhook", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: userMsg.text }),
+        body: JSON.stringify({ message: userMsg.text, sessionId }),
       });
       const data = await res.json();
+
+      // Extract response from data.text.body
       const botText =
-        data?.reply || data?.message || data?.response || t("demo.fallback", "✅ Got it! I'll process your request shortly.");
+        data?.text?.body || data?.reply || data?.message || data?.response || t("demo.fallback", "✅ Got it! I'll process your request shortly.");
       setMsgs((m) => [...m, { from: "bot", text: botText, time: now() }]);
     } catch {
       setMsgs((m) => [
@@ -125,8 +145,8 @@ export function PhoneMockup({
             >
               <div
                 className={`max-w-[78%] rounded-2xl px-3 py-2 text-sm shadow-md relative ${m.from === "user"
-                    ? "bg-[#005c4b] text-white rounded-tr-sm"
-                    : "bg-[#1f2c34] text-slate-100 rounded-tl-sm"
+                  ? "bg-[#005c4b] text-white rounded-tr-sm"
+                  : "bg-[#1f2c34] text-slate-100 rounded-tl-sm"
                   }`}
                 style={{ wordBreak: "break-word" }}
               >
@@ -152,7 +172,6 @@ export function PhoneMockup({
               </div>
             </div>
           )}
-          <div ref={bottomRef} />
         </div>
 
         {/* Input bar */}

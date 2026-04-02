@@ -52,10 +52,10 @@ export function Features() {
             {t("features.badge", "What it does")}
           </div>
           <h2 className="font-['Plus_Jakarta_Sans',_sans-serif] text-4xl md:text-5xl font-extrabold text-white mb-4">
-            {t("features.h2", "Everything your front desk does,")}
+            {t("features.h2.line1", "Everything your front desk does,")}
             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#25d366] to-[#128c7e]">
-              {t("features.h2.accent", "automated.")}
+              {t("features.h2.line2", "automated.")}
             </span>
           </h2>
           <p className="text-slate-400 max-w-xl mx-auto text-lg">

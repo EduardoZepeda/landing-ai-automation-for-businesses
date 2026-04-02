@@ -137,7 +137,7 @@
     },
     "enterprise": {
       "name": "Empresarial",
-      "price": "Custom",
+      "price": "Personalizado",
       "desc": "Construcción personalizada para grupos hospitalarios y redes multi-sucursal.",
       "note": "Alcance y precio definidos después de llamada de descubrimiento.",
       "cta": "Contáctanos",
@@ -156,7 +156,7 @@
     "secondary": "Probar la demo en vivo"
   },
   "footer": {
-    "copy": "© 2025 Aidenta. Todos los derechos reservados.",
+    "copy": "© 2026 Aidenta. Todos los derechos reservados.",
     "privacy": "Privacidad",
     "terms": "Términos",
     "contact": "Contacto"
