@@ -32,7 +32,7 @@
       "secondary": "Learn More"
     },
     "social": {
-      "count": "500+ clinics",
+      "count": "500+ businesses",
       "sub": "already automating appointments"
     }
   },
@@ -181,7 +181,7 @@
     }
   },
   "cta": {
-    "h2": "Ready to automate your clinic?",
+    "h2": "Ready to automate your business?",
     "desc": "Pay once, own it forever. We set everything up, hand you the keys, and you keep 100% control — with no ongoing fees from us.",
     "primary": "See installation packages",
     "secondary": "Try the live demo"

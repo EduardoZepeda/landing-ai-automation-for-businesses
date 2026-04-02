@@ -1,17 +1,17 @@
 {
   "seo": {
-    "title": "Aidenta - Asistente de IA por WhatsApp para Clínicas",
+    "title": "Aidenta - Asistente de IA por WhatsApp para negocios",
     "description": "Asistente de IA por WhatsApp que maneja citas, recordatorios y consultas de pacientes 24/7 para clínicas dentales, consultorios médicos y profesionales de la salud.",
     "keywords": "asistente de IA, WhatsApp, automatización de clínicas, agendado de citas, clínica dental, consultorio médico, salud, 24/7, WhatsApp Business, gestión de pacientes"
   },
   "jsonLd": {
-    "description": "Asistente de IA por WhatsApp que maneja citas, recordatorios y consultas de pacientes 24/7 para clínicas dentales, consultorios médicos y profesionales de la salud.",
+    "description": "Asistente de IA por WhatsApp que maneja citas, recordatorios y consultas de pacientes 24/7 para clínicas dentales, consultorios médicos,  profesionales de la salud y negocios en general",
     "feature0": "Autorespuesta de WhatsApp 24/7",
     "feature1": "Agendado de citas automático",
     "feature2": "Recordatorios por WhatsApp y email",
     "feature3": "Integración con Google Calendar",
     "feature4": "Gestión de pacientes",
-    "releaseNotes": "Versión inicial del asistente de IA para clínicas de salud."
+    "releaseNotes": "Versión inicial del asistente de IA para clínicas de salud y negocios en general."
   },
   "nav": {
     "features": "Características",
@@ -23,8 +23,8 @@
   "hero": {
     "badge": "Asistente de IA por WhatsApp",
     "h1": {
-      "line1": "Tu clínica,",
-      "line2": "siempre abierta."
+      "line1": "Tu asistente,",
+      "line2": "disponible 24/7"
     },
     "description": "Un asistente inteligente de WhatsApp que maneja citas, recordatorios y consultas de pacientes 24/7 — para dentistas, médicos, terapeutas y más.",
     "cta": {
@@ -32,13 +32,13 @@
       "secondary": "Saber Más"
     },
     "social": {
-      "count": "500+ clínicas",
+      "count": "500+ negocios",
       "sub": "ya automatizando citas"
     }
   },
   "heroDemo": {
     "messages": {
-      "bot1": "¡Hola! Soy tu asistente dental. ¿En qué puedo ayudarte hoy?",
+      "bot1": "¡Hola! Soy tu asistente. ¿En qué puedo ayudarte hoy?",
       "user1": "Me gustaría agendar una cita para limpieza.",
       "bot2": "¡Por supuesto! Tengo disponibilidad el miércoles 2 a las 10:00 o el viernes 4 a las 14:00. ¿Cuál te funciona mejor?"
     }
@@ -154,7 +154,7 @@
       "name": "Clínica",
       "price": "$990",
       "badge": "Más Solicitado",
-      "desc": "Configuración completa para clínicas multi-doctor.",
+      "desc": "Configuración completa para negocios.",
       "once": "una vez",
       "note": "Pagas directamente a los proveedores (WhatsApp API, OpenAI).",
       "cta": "Obtener Cotización",
