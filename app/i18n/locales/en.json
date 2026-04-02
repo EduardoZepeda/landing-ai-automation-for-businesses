@@ -23,7 +23,7 @@
   "hero": {
     "badge": "WhatsApp-powered AI Agent",
     "h1": {
-      "line1": "Your clinic,",
+      "line1": "Your business",
       "line2": "always open."
     },
     "description": "An intelligent WhatsApp assistant that handles appointments, reminders, and patient queries 24/7 — for dentists, doctors, therapists, and beyond.",
@@ -38,7 +38,7 @@
   },
   "heroDemo": {
     "messages": {
-      "bot1": "Hello! I'm your dental assistant. How can I help you today?",
+      "bot1": "Hello! I'm your assistant. How can I help you today?",
       "user1": "I'd like to book an appointment for a cleaning.",
       "bot2": "Of course! I have availability on Wednesday 2nd at 10:00 or Friday 4th at 14:00. Which works best?"
     }

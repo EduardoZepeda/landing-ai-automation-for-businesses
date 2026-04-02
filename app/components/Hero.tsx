@@ -9,7 +9,7 @@ export function Hero() {
   const { t } = useI18n();
 
   const heroDemoMessages = useMemo(() => [
-    { from: "bot" as const, text: t("heroDemo.messages.bot1", "Hello! I'm your dental assistant. How can I help you today?"), time: "09:00" },
+    { from: "bot" as const, text: t("heroDemo.messages.bot1", "Hello! I'm your assistant. How can I help you today?"), time: "09:00" },
     { from: "user" as const, text: t("heroDemo.messages.user1", "I'd like to book an appointment for a cleaning."), time: "09:01" },
     { from: "bot" as const, text: t("heroDemo.messages.bot2", "Of course! I have availability on Wednesday 2nd at 10:00 or Friday 4th at 14:00. Which works best?"), time: "09:01" },
   ], [t]);
@@ -42,7 +42,7 @@ export function Hero() {
               {t("hero.badge", "WhatsApp-powered AI Agent")}
             </div>
             <h1 className="font-['Plus_Jakarta_Sans',_sans-serif] text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-[1.0] tracking-tight mb-6 animate-slide-up">
-              {t("hero.h1.line1", "Your clinic,")}
+              {t("hero.h1.line1", "Your business")}
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#25d366] to-[#128c7e]">
                 {t("hero.h1.line2", "always open.")}

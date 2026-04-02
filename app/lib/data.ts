@@ -6,7 +6,7 @@ export type Message = { from: "user" | "bot"; text: string; time: string };
 export const seedMessages: Message[] = [
   {
     from: "bot",
-    text: "Hello! I'm your dental assistant. How can I help you today?",
+    text: "Hello! I'm your assistant. How can I help you today?",
     time: "09:00",
   },
   {
