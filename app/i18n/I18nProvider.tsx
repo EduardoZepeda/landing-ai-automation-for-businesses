@@ -71,7 +71,7 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   // Use default locale during SSR to prevent hydration mismatch
   const contextValue: I18nContextType = isMounted
     ? { locale, setLocale, t, isMounted }
-    : { locale: DEFAULT_LOCALE, setLocale: noopSetLocale, t: () => "", isMounted: false };
+    : { locale: DEFAULT_LOCALE, setLocale: noopSetLocale, t: (key: string, fallback: string) => fallback, isMounted: false };
 
   return (
     <I18nContext.Provider value={contextValue}>

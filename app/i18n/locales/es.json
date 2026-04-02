@@ -22,6 +22,13 @@
       "sub": "ya automatizando citas"
     }
   },
+  "heroDemo": {
+    "messages": {
+      "bot1": "¡Hola! Soy tu asistente dental. ¿En qué puedo ayudarte hoy?",
+      "user1": "Me gustaría agendar una cita para limpieza.",
+      "bot2": "¡Por supuesto! Tengo disponibilidad el miércoles 2 a las 10:00 o el viernes 4 a las 14:00. ¿Cuál te funciona mejor?"
+    }
+  },
   "demo": {
     "contact": {
       "name": "Asistente Aidenta",
@@ -31,6 +38,7 @@
     "input": {
       "placeholder": "Escribe un mensaje..."
     },
+    "tooltip": "Pruébalo aquí",
     "fallback": "Entendido. Procesaré tu solicitud en breve.",
     "error": "Hmm, no pude conectar ahora. ¡Por favor intenta de nuevo en un momento!",
     "badge": "Pruébalo ahora",

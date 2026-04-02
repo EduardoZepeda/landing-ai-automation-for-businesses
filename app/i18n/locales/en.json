@@ -22,6 +22,13 @@
       "sub": "already automating appointments"
     }
   },
+  "heroDemo": {
+    "messages": {
+      "bot1": "Hello! I'm your dental assistant. How can I help you today?",
+      "user1": "I'd like to book an appointment for a cleaning.",
+      "bot2": "Of course! I have availability on Wednesday 2nd at 10:00 or Friday 4th at 14:00. Which works best?"
+    }
+  },
   "demo": {
     "contact": {
       "name": "Aidenta Assistant",
@@ -31,6 +38,7 @@
     "input": {
       "placeholder": "Type a message..."
     },
+    "tooltip": "Test it here",
     "fallback": "Got it! I'll process your request shortly.",
     "error": "Hmm, I couldn't connect right now. Please try again in a moment!",
     "badge": "Try it now",

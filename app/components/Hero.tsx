@@ -2,11 +2,18 @@
 
 import { MessageCircle, ArrowRight, User } from "lucide-react";
 import { useI18n } from "../lib/i18n";
-import { seedMessages } from "../lib/data";
 import { PhoneMockup } from "./PhoneMockup";
+import { useMemo } from "react";
 
 export function Hero() {
   const { t } = useI18n();
+
+  const heroDemoMessages = useMemo(() => [
+    { from: "bot" as const, text: t("heroDemo.messages.bot1", "Hello! I'm your dental assistant. How can I help you today?"), time: "09:00" },
+    { from: "user" as const, text: t("heroDemo.messages.user1", "I'd like to book an appointment for a cleaning."), time: "09:01" },
+    { from: "bot" as const, text: t("heroDemo.messages.bot2", "Of course! I have availability on Wednesday 2nd at 10:00 or Friday 4th at 14:00. Which works best?"), time: "09:01" },
+  ], [t]);
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0a1628]">
       {/* Ambient background */}
@@ -85,7 +92,7 @@ export function Hero() {
 
           {/* Right: hero phone mockup (static preview) */}
           <div className="flex-shrink-0 animate-float">
-            <PhoneMockup messages={seedMessages} readOnly />
+            <PhoneMockup messages={heroDemoMessages} readOnly />
           </div>
         </div>
       </div>

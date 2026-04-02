@@ -38,11 +38,16 @@ export function PhoneMockup({
   readOnly?: boolean;
 }) {
   const { t } = useI18n();
-  // Start with empty messages for clean conversation
+  // Use prop messages for initial state, fall back to empty for interactive
   const [msgs, setMsgs] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [sessionId, setSessionId] = useState("");
+
+  // Sync messages from props after mount (handles SSR hydration)
+  useEffect(() => {
+    setMsgs(messages);
+  }, [messages]);
 
   useEffect(() => {
     setSessionId(getSessionId());

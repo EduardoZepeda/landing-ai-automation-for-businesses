@@ -3,13 +3,13 @@
 import { useState } from "react";
 import { useI18n } from "../lib/i18n";
 import { useInView } from "../lib/hooks";
-import { seedMessages } from "../lib/data";
 import { PhoneMockup } from "./PhoneMockup";
+import { ArrowUp } from "lucide-react";
 
 export function InteractiveDemo() {
   const { t } = useI18n();
   const { ref, inView } = useInView();
-  const [liveMessages, setLiveMessages] = useState(seedMessages);
+  const [liveMessages, setLiveMessages] = useState<any[]>([]);
 
   return (
     <section id="demo" className="py-32 bg-[#0a1628] relative overflow-hidden">
@@ -51,6 +51,14 @@ export function InteractiveDemo() {
 
           {/* Interactive phone */}
           <div className={`flex-shrink-0 transition-all duration-1000 delay-300 ${inView ? "opacity-100 scale-100" : "opacity-0 scale-95"}`}>
+            {/* Label pointing to phone */}
+            <div className="flex flex-col items-center gap-2 mb-4">
+              <div className="flex items-center gap-2 px-4 py-2 bg-yellow-400 text-[#0a1628] text-sm font-semibold rounded-full shadow-lg shadow-yellow-400/20">
+                <ArrowUp size={14} className="rotate-180" />
+                {t("demo.tooltip", "Test it here")}
+              </div>
+              <div className="w-0 h-0 border-l-[8px] border-l-transparent border-r-[8px] border-r-transparent border-t-[8px] border-t-yellow-400" />
+            </div>
             <PhoneMockup messages={liveMessages} />
           </div>
         </div>
