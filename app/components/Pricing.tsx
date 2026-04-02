@@ -33,9 +33,9 @@ export function Pricing() {
         {/* Provider cost explainer */}
         <div className={`flex flex-wrap justify-center gap-4 mb-16 transition-all duration-700 delay-200 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
           {[
-            { icon: MessageCircle, label: t("pricing.provider.wa", "WhatsApp Business API"), cost: t("pricing.provider.wa.cost", "~$5–15 / mo") },
-            { icon: Bot, label: t("pricing.provider.ai", "OpenAI / AI model"), cost: t("pricing.provider.ai.cost", "~$5–15 / mo") },
-            { icon: Calendar, label: t("pricing.provider.cal", "Calendar provider"), cost: t("pricing.provider.cal.cost", "Free tier available") },
+            { icon: MessageCircle, label: t("pricing.provider.wa.name", "WhatsApp Business API"), cost: t("pricing.provider.wa.cost", "~$5–15 / mo") },
+            { icon: Bot, label: t("pricing.provider.ai.name", "OpenAI / AI model"), cost: t("pricing.provider.ai.cost", "~$5–15 / mo") },
+            { icon: Calendar, label: t("pricing.provider.cal.name", "Calendar provider"), cost: t("pricing.provider.cal.cost", "Free tier available") },
           ].map((item, i) => (
             <div key={i} className="flex items-center gap-2.5 px-4 py-2.5 rounded-xl border border-white/[0.08] bg-white/[0.03] text-sm">
               <item.icon size={16} className="text-slate-400" />
@@ -50,8 +50,8 @@ export function Pricing() {
             <div
               key={p.key}
               className={`relative flex flex-col rounded-2xl p-8 border transition-all duration-700 ${p.highlight
-                  ? "border-[#25d366]/60 bg-gradient-to-b from-[#25d366]/10 to-[#128c7e]/5 shadow-2xl shadow-[#25d366]/10 md:scale-105"
-                  : "border-white/[0.08] bg-white/[0.02]"
+                ? "border-[#25d366]/60 bg-gradient-to-b from-[#25d366]/10 to-[#128c7e]/5 shadow-2xl shadow-[#25d366]/10 md:scale-105"
+                : "border-white/[0.08] bg-white/[0.02]"
                 } ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
               style={{ transitionDelay: `${i * 120}ms` }}
             >
@@ -100,8 +100,8 @@ export function Pricing() {
               <a
                 href="#"
                 className={`w-full py-3.5 rounded-full text-center font-bold text-sm transition-all hover:scale-105 active:scale-95 ${p.highlight
-                    ? "bg-[#25d366] text-[#003d2e] hover:bg-[#20bf5b] shadow-lg shadow-[#25d366]/30"
-                    : "border border-white/20 text-white hover:border-[#25d366]/50 hover:bg-[#25d366]/5"
+                  ? "bg-[#25d366] text-[#003d2e] hover:bg-[#20bf5b] shadow-lg shadow-[#25d366]/30"
+                  : "border border-white/20 text-white hover:border-[#25d366]/50 hover:bg-[#25d366]/5"
                   }`}
               >
                 {t(`${p.key}.cta`, p.cta)}

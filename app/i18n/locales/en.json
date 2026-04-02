@@ -1,4 +1,18 @@
 {
+  "seo": {
+    "title": "Aidenta - WhatsApp AI Assistant for Clinics",
+    "description": "AI-powered WhatsApp assistant that handles appointments, reminders, and patient queries 24/7 for dental clinics, medical practices, and healthcare professionals.",
+    "keywords": "AI assistant, WhatsApp, clinic automation, appointment booking, dental clinic, medical practice, healthcare, 24/7, WhatsApp Business, patient management"
+  },
+  "jsonLd": {
+    "description": "AI-powered WhatsApp assistant that handles appointments, reminders, and patient queries 24/7 for dental clinics, medical practices, and healthcare professionals.",
+    "feature0": "24/7 WhatsApp autoresponder",
+    "feature1": "Automatic appointment booking",
+    "feature2": "WhatsApp and email reminders",
+    "feature3": "Google Calendar integration",
+    "feature4": "Patient management",
+    "releaseNotes": "Initial release of AI assistant for healthcare clinics."
+  },
   "nav": {
     "features": "Features",
     "demo": "Demo",
@@ -109,18 +123,25 @@
     },
     "subtitle": "We build and configure your AI assistant. You maintain full ownership and pay WhatsApp & AI providers directly at their standard rates — typically under $30/month.",
     "provider": {
-      "wa": "WhatsApp Business API",
-      "wa.cost": "~$5-15 / mo",
-      "ai": "OpenAI / AI model",
-      "ai.cost": "~$5-15 / mo",
-      "cal": "Calendar provider",
-      "cal.cost": "Free tier available"
+      "wa": {
+        "name": "WhatsApp Business API",
+        "cost": "~$5-15 / mo"
+      },
+      "ai": {
+        "name": "OpenAI / AI model",
+        "cost": "~$5-15 / mo"
+      },
+      "cal": {
+        "name": "Calendar provider",
+        "cost": "Free tier available"
+      }
     },
     "footer": "All packages include source code handoff. You own everything we build. 🔒",
     "essential": {
       "name": "Essential",
       "price": "$490",
       "desc": "One-time setup for solo practitioners and small clinics.",
+      "once": "one-time",
       "note": "You pay providers (WhatsApp API, OpenAI) directly.",
       "cta": "Get a Quote",
       "feature0": "1 WhatsApp number configured",
@@ -134,6 +155,7 @@
       "price": "$990",
       "badge": "Most Requested",
       "desc": "Full-featured setup for multi-practitioner clinics.",
+      "once": "one-time",
       "note": "You pay providers (WhatsApp API, OpenAI) directly.",
       "cta": "Get a Quote",
       "feature0": "Up to 3 WhatsApp numbers",
@@ -147,6 +169,7 @@
       "name": "Enterprise",
       "price": "Custom",
       "desc": "Tailored build for hospital groups and multi-location networks.",
+      "once": "one-time",
       "note": "Scope and pricing defined after discovery call.",
       "cta": "Contact Us",
       "feature0": "Unlimited WhatsApp numbers",
