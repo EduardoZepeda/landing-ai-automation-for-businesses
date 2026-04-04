@@ -1,6 +1,6 @@
 {
   "seo": {
-    "title": "Aidenta - Asistente de IA por WhatsApp para negocios",
+    "title": "Aiko - Asistente de IA por WhatsApp para negocios",
     "description": "Asistente de IA por WhatsApp que maneja citas, recordatorios y consultas de pacientes 24/7 para clínicas dentales, consultorios médicos y profesionales de la salud.",
     "keywords": "asistente de IA, WhatsApp, automatización de clínicas, agendado de citas, clínica dental, consultorio médico, salud, 24/7, WhatsApp Business, gestión de pacientes"
   },
@@ -45,7 +45,7 @@
   },
   "demo": {
     "contact": {
-      "name": "Asistente Aidenta",
+      "name": "Asistente Aiko",
       "status": "en línea"
     },
     "today": "HOY",
@@ -57,7 +57,7 @@
     "error": "Hmm, no pude conectar ahora. ¡Por favor intenta de nuevo en un momento!",
     "badge": "Pruébalo ahora",
     "h2": {
-      "line1": "Chatea con Aidenta",
+      "line1": "Chatea con Aiko",
       "line2": "ahora mismo."
     },
     "description": "Escribe cualquier cosa en el chat — pide agendar una cita, consulta disponibilidad, o simplemente saluda. Experimenta tu futuro asistente.",
@@ -71,7 +71,7 @@
       "line1": "Todo lo que hace tu recepción,",
       "line2": "automatizado."
     },
-    "subtitle": "Deja de perder pacientes por correo de voz. Deja que Aidenta maneje la agenda para que puedas enfocarte en la atención.",
+    "subtitle": "Deja de perder pacientes por correo de voz. Deja que Aiko maneje la agenda para que puedas enfocarte en la atención.",
     "autoresponder": {
       "title": "Autorespuesta de WhatsApp 24/7",
       "desc": "Tu asistente responde al instante a los pacientes durante todo el día — o solo en los horarios que elijas. Ningún mensaje queda sin respuesta."
@@ -137,47 +137,44 @@
       }
     },
     "footer": "Todos los paquetes incluyen entrega del código fuente. Todo lo que construimos es tuyo. 🔒",
-    "essential": {
-      "name": "Esencial",
-      "price": "$490",
-      "desc": "Configuración única para profesionales independientes y clínicas pequeñas.",
+    "basic": {
+      "name": "Básico",
+      "price": "$275",
+      "desc": "Perfecto para pequeños negocios que inician con la automatización.",
       "once": "una vez",
       "note": "Pagas directamente a los proveedores (WhatsApp API, OpenAI).",
-      "cta": "Obtener Cotización",
-      "feature0": "1 número de WhatsApp configurado",
-      "feature1": "Flujo de agendado de citas",
-      "feature2": "Configuración de recordatorios automáticos",
-      "feature3": "Integración con calendario",
-      "feature4": "30 días de soporte post-instalación"
+      "cta": "Comenzar",
+      "feature0": "Manejo de mensajes de texto",
+      "feature1": "Agendado de citas",
+      "feature2": "Almacenamiento en Google Sheets",
+      "feature3": "Integración con WhatsApp"
     },
-    "clinic": {
-      "name": "Clínica",
-      "price": "$990",
-      "badge": "Más Solicitado",
-      "desc": "Configuración completa para negocios.",
+    "business": {
+      "name": "Negocios",
+      "price": "$350",
+      "badge": "Más Popular",
+      "desc": "Todo lo que necesitas para automatizar completamente la comunicación con tus clientes.",
       "once": "una vez",
       "note": "Pagas directamente a los proveedores (WhatsApp API, OpenAI).",
-      "cta": "Obtener Cotización",
-      "feature0": "Hasta 3 números de WhatsApp",
-      "feature1": "Lógica de agendado multi-doctor",
-      "feature2": "Flujos de conversación personalizados",
-      "feature3": "Configuración de dashboard de análisis",
-      "feature4": "Integración con EHR / calendario",
-      "feature5": "60 días de soporte post-instalación"
+      "cta": "Comenzar",
+      "feature0": "Manejo de mensajes de texto",
+      "feature1": "Agendado de citas",
+      "feature2": "Almacenamiento en Google Sheets",
+      "feature3": "Integración con WhatsApp",
+      "feature4": "Análisis y procesamiento de imágenes",
+      "feature5": "Transcripción de mensajes de voz",
+      "feature6": "Recordatorios por WhatsApp y email"
     },
-    "enterprise": {
-      "name": "Empresarial",
-      "price": "Personalizado",
-      "desc": "Construcción personalizada para grupos hospitalarios y redes multi-sucursal.",
+    "customized": {
+      "name": "Personalizado",
+      "price": "Custom",
+      "desc": "Una solución a medida creada específicamente para tus necesidades únicas.",
       "once": "una vez",
-      "note": "Alcance y precio definidos después de llamada de descubrimiento.",
+      "note": "Hablemos de lo que necesitas. Lo construiremos juntos.",
       "cta": "Contáctanos",
-      "feature0": "Números de WhatsApp ilimitados",
-      "feature1": "White-label y marca personalizada",
-      "feature2": "Integración completa con EHR / HIS",
-      "feature3": "Gerente de proyecto dedicado",
-      "feature4": "Sesiones de capacitación de personal",
-      "feature5": "Retainer continuo disponible"
+      "feature0": "Todas las características de Negocios",
+      "feature1": "Integraciones y flujos personalizados",
+      "feature2": "Soporte y capacitación dedicada"
     }
   },
   "cta": {
@@ -187,7 +184,7 @@
     "secondary": "Probar la demo en vivo"
   },
   "footer": {
-    "copy": "© 2026 Aidenta. Todos los derechos reservados.",
+    "copy": "© 2026 Aiko. Todos los derechos reservados.",
     "privacy": "Privacidad",
     "terms": "Términos",
     "contact": "Contacto"

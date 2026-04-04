@@ -1,6 +1,6 @@
 {
   "seo": {
-    "title": "Aidenta - WhatsApp AI Assistant",
+    "title": "Aiko - WhatsApp AI Assistant",
     "description": "AI-powered WhatsApp assistant that handles appointments, reminders, and patient queries 24/7 for dental clinics, medical practices, and healthcare professionals.",
     "keywords": "AI assistant, WhatsApp, clinic automation, appointment booking, dental clinic, medical practice, healthcare, 24/7, WhatsApp Business, patient management"
   },
@@ -45,7 +45,7 @@
   },
   "demo": {
     "contact": {
-      "name": "Aidenta Assistant",
+      "name": "Aiko Assistant",
       "status": "online"
     },
     "today": "TODAY",
@@ -57,7 +57,7 @@
     "error": "Hmm, I couldn't connect right now. Please try again in a moment!",
     "badge": "Try it now",
     "h2": {
-      "line1": "Chat with Aidenta",
+      "line1": "Chat with Aiko",
       "line2": "right now."
     },
     "description": "Type anything in the chat — ask to book an appointment, check availability, or just say hello. Experience your future assistant.",
@@ -71,7 +71,7 @@
       "line1": "Everything your front desk does,",
       "line2": "automated."
     },
-    "subtitle": "Stop losing patients to voicemail. Let Aidenta handle the scheduling so you can focus on care.",
+    "subtitle": "Stop losing patients to voicemail. Let Aiko handle the scheduling so you can focus on care.",
     "autoresponder": {
       "title": "24/7 WhatsApp Autoresponder",
       "desc": "Your assistant replies instantly to patients around the clock — or only during the hours you choose. No message goes unanswered."
@@ -137,47 +137,43 @@
       }
     },
     "footer": "All packages include source code handoff. You own everything we build. 🔒",
-    "essential": {
-      "name": "Essential",
-      "price": "$490",
-      "desc": "One-time setup for solo practitioners and small clinics.",
+    "basic": {
+      "name": "Basic",
+      "price": "275 USD",
+      "desc": "Perfect for small businesses just getting started with automation.",
       "once": "one-time",
       "note": "You pay providers (WhatsApp API, OpenAI) directly.",
-      "cta": "Get a Quote",
-      "feature0": "1 WhatsApp number configured",
-      "feature1": "Appointment booking flow",
-      "feature2": "Automated reminders setup",
-      "feature3": "Calendar integration",
-      "feature4": "30-day post-install support"
+      "cta": "Get Started",
+      "feature0": "Text messages handling",
+      "feature1": "Appointment scheduling",
+      "feature2": "Google Sheets data storage",
+      "feature3": "WhatsApp integration"
     },
-    "clinic": {
-      "name": "Clinic",
-      "price": "$990",
-      "badge": "Most Requested",
-      "desc": "Full-featured setup for multi-practitioner clinics.",
+    "business": {
+      "name": "Business",
+      "price": "350 USD",
+      "badge": "Most Popular",
+      "desc": "Everything you need to fully automate your client communication.",
       "once": "one-time",
       "note": "You pay providers (WhatsApp API, OpenAI) directly.",
-      "cta": "Get a Quote",
-      "feature0": "Up to 3 WhatsApp numbers",
-      "feature1": "Multi-doctor scheduling logic",
-      "feature2": "Custom conversation flows",
-      "feature3": "Analytics dashboard setup",
-      "feature4": "EHR / calendar integration",
-      "feature5": "60-day post-install support"
+      "cta": "Get Started",
+      "feature0": "Text messages handling",
+      "feature1": "Appointment scheduling",
+      "feature2": "Google Sheets data storage",
+      "feature3": "WhatsApp integration",
+      "feature4": "Image analysis & processing",
+      "feature5": "Voice message transcription",
+      "feature6": "Reminders via WhatsApp & email"
     },
-    "enterprise": {
-      "name": "Enterprise",
+    "customized": {
+      "name": "Customized",
       "price": "Custom",
-      "desc": "Tailored build for hospital groups and multi-location networks.",
+      "desc": "A tailor-made solution built specifically for your unique needs.",
       "once": "one-time",
-      "note": "Scope and pricing defined after discovery call.",
+      "note": "Let's talk about what you need. We'll build it together.",
       "cta": "Contact Us",
-      "feature0": "Unlimited WhatsApp numbers",
-      "feature1": "White-label & custom branding",
-      "feature2": "Full EHR / HIS integration",
-      "feature3": "Dedicated project manager",
-      "feature4": "Staff training sessions",
-      "feature5": "Ongoing retainer available"
+      "feature0": "Custom integrations & workflows",
+      "feature1": "Dedicated support & training"
     }
   },
   "cta": {
@@ -187,7 +183,7 @@
     "secondary": "Try the live demo"
   },
   "footer": {
-    "copy": "© 2026 Aidenta. All rights reserved.",
+    "copy": "© 2026 Aiko. All rights reserved.",
     "privacy": "Privacy",
     "terms": "Terms",
     "contact": "Contact"

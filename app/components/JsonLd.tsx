@@ -8,24 +8,24 @@ export function JsonLd() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
-    name: "Aidenta",
+    name: "Aiko",
     applicationCategory: "BusinessApplication",
     operatingSystem: "Web Browser, WhatsApp",
     offers: {
       "@type": "Offer",
-      price: "490",
+      price: "275",
       priceCurrency: "USD",
     },
     description: t("jsonLd.description", "AI-powered WhatsApp assistant that handles appointments, reminders, and patient queries 24/7 for dental clinics, medical practices, and healthcare professionals."),
     url: process.env.NEXT_PUBLIC_URL,
     author: {
       "@type": "Organization",
-      name: "Aidenta",
+      name: "Aiko",
       url: process.env.NEXT_PUBLIC_URL,
     },
     provider: {
       "@type": "Organization",
-      name: "Aidenta",
+      name: "Aiko",
       url: process.env.NEXT_PUBLIC_URL,
     },
     featureList: [

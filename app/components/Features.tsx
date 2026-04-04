@@ -59,7 +59,7 @@ export function Features() {
             </span>
           </h2>
           <p className="text-slate-400 max-w-xl mx-auto text-lg">
-            {t("features.subtitle", "Stop losing patients to voicemail. Let Aidenta handle the scheduling so you can focus on care.")}
+            {t("features.subtitle", "Stop losing patients to voicemail. Let Aiko handle the scheduling so you can focus on care.")}
           </p>
         </div>
 

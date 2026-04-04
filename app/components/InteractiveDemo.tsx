@@ -26,7 +26,7 @@ export function InteractiveDemo() {
               {t("demo.badge", "Try it now")}
             </div>
             <h2 className="font-['Plus_Jakarta_Sans',_sans-serif] text-4xl md:text-5xl font-extrabold text-white mb-6 leading-tight">
-              {t("demo.h2.line1", "Chat with Aidenta")}
+              {t("demo.h2.line1", "Chat with Aiko")}
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#25d366] to-[#128c7e]">
                 {t("demo.h2.line2", "right now.")}

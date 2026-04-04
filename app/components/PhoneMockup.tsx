@@ -5,7 +5,7 @@ import { Phone, MoreVertical, Smile, Send, Stethoscope } from "lucide-react";
 import { useI18n } from "../lib/i18n";
 import { type Message } from "../lib/data";
 
-const SESSION_COOKIE_NAME = "aidenta_session";
+const SESSION_COOKIE_NAME = "Aiko_session";
 
 function generateUUID(): string {
   return crypto.randomUUID()
@@ -108,7 +108,7 @@ export function PhoneMockup({
           </div>
           <div className="flex-1 min-w-0">
             <div className="text-white text-sm font-semibold truncate">
-              {t("demo.contact.name", "Aidenta Assistant")}
+              {t("demo.contact.name", "Aiko Assistant")}
             </div>
             <div className="flex items-center gap-1 mt-0.5">
               <span className="w-1.5 h-1.5 rounded-full bg-[#25d366]" />

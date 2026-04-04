@@ -17,14 +17,14 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(`${process.env.NEXT_PUBLIC_URL}`),
   title: {
-    default: "Aidenta - WhatsApp AI Assistant",
-    template: "%s | Aidenta",
+    default: "Aiko - WhatsApp AI Assistant",
+    template: "%s | Aiko",
   },
   description: "AI-powered WhatsApp assistant that handles appointments, reminders, and patient queries 24/7 for dental clinics, medical practices, and healthcare professionals.",
   keywords: ["AI assistant", "WhatsApp", "clinic automation", "appointment booking", "dental clinic", "medical practice", "healthcare", "24/7", "WhatsApp Business", "patient management"],
-  authors: [{ name: "Aidenta" }],
-  creator: "Aidenta",
-  publisher: "Aidenta",
+  authors: [{ name: "Aiko" }],
+  creator: "Aiko",
+  publisher: "Aiko",
   formatDetection: {
     email: false,
     address: false,
@@ -34,23 +34,23 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: `${process.env.NEXT_PUBLIC_URL}`,
-    siteName: "Aidenta",
-    title: "Aidenta - WhatsApp AI Assistant",
+    siteName: "Aiko",
+    title: "Aiko - WhatsApp AI Assistant",
     description: "AI-powered WhatsApp assistant that handles appointments, reminders, and patient queries 24/7 for dental clinics, medical practices, and healthcare professionals.",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Aidenta - AI Assistant for Healthcare",
+        alt: "Aiko - AI Assistant for Healthcare",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aidenta - WhatsApp AI Assistant",
+    title: "Aiko - WhatsApp AI Assistant",
     description: "AI-powered WhatsApp assistant that handles appointments, reminders, and patient queries 24/7 for healthcare professionals.",
-    creator: "@aidenta",
+    creator: "@Aiko",
     images: ["/og-image.png"],
   },
   alternates: {
